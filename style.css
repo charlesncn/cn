@@ -867,6 +867,15 @@ footer .design{
     .projects .container {
         justify-content: space-evenly;
     }
+
+
+    .container .pjCard:hover .pjContent h2 {
+        font-size: 20px;
+    }
+    .container .pjCard:hover .pjContent p {
+        font-size: 14px;
+    }
+
     .pjCard img{
         height: 370px;
     }
@@ -973,10 +982,21 @@ footer .design{
     .projects .container .pjCard{
         margin-top: 120px;
         width: auto;
+        max-width: 700px;
+        margin-top: 80px;
     }
     
-    .container .pjCard:hover img{
+    .projects .container .pjCard:hover img{
         left: 80%;
+    }
+
+    .projects .container .pjCard:hover img{
+        right: 12%;
+        height: 230px;
+    }
+    
+    .projects .container .pjCard:hover{
+        width: 265px;
     }
 
 }
@@ -1044,23 +1064,6 @@ footer .design{
         letter-spacing: 1.5px;
     }
     
-    .container .pjCard{
-        margin-top: auto;
-    }
-    .container .pjCard:hover img{
-        right: 12%;
-        height: 230px;
-    }
-    
-    .container .pjCard:hover{
-        width: 265px;
-    }
-    .container .pjCard:hover .pjContent h2 {
-        font-size: 20px;
-    }
-    .container .pjCard:hover .pjContent p {
-        font-size: 14px;
-    }
 
 
 
