@@ -596,10 +596,10 @@ section .title::after{
     transform: translate(-50%);
     transition: 0.5s;
 }
-.projects .container:last-child .pjCard:nth-child(1) img{
+.projects .container:nth-child(5) .pjCard:nth-child(1) img{
     height: 250px;
 }
-.projects .container:last-child .pjCard:nth-child(2) img{
+.projects .container:nth-child(5) .pjCard:nth-child(2) img{
     height: 350px;
 }
 
@@ -874,17 +874,17 @@ footer .design{
         height: 400px;
         left: 70%;
     }
-    .projects .container:last-child .pjCard:nth-child(1) img{
+    .projects .container:nth-child(5) .pjCard:nth-child(1) img{
         height: 200px;
     }
-    .projects .container:last-child .pjCard:nth-child(2) img{
+    .projects .container:nth-child(5) .pjCard:nth-child(2) img{
         height: 200px;
     }
-    .projects .container:last-child .pjCard:nth-child(1):hover img{
+    .projects .container:nth-child(5) .pjCard:nth-child(1):hover img{
         height: 120px;
         left: 60%;
     }
-    .projects .container:last-child .pjCard:nth-child(2):hover img{
+    .projects .container:nth-child(5) .pjCard:nth-child(2):hover img{
         height: 180px;
         left: 60%;
     }
