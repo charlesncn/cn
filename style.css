@@ -1025,6 +1025,10 @@ footer .design{
 
 
 @media (max-width: 768px){
+    #status{
+        background-size: 50%;
+    }
+
     .home_txt,
     .intro_txt{
         width: 90%;
