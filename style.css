@@ -154,12 +154,40 @@ header ul li a:hover{
 
 .home{
     width: 100%;
-    background: url(img/dark_lap.png);
+    background-color: #000;
+    /* background: url(img/dark_lap.png); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0 auto;
 }
+.home .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-flow: wrap;
+}
+.home .home_side{
+    height: 400px;
+    margin: auto 10px;
+}
+/* .home .home_side:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.home .home_side:nth-child(2){
+    flex-grow: 1;
+    animation: animate 60s ease-in-out infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
 
 /* nav */
 /* s */
@@ -170,7 +198,17 @@ header ul li a:hover{
 /* o */
 /* n */
 
+
+
+
+
+
+
+
+
+
 /* home */
+
 
 .home_txt{
     margin: auto;
@@ -218,6 +256,9 @@ header ul li a:hover{
     margin: 60px 0 0 0;
     padding: 20px 0;
 }
+
+
+
 
 /* skills cards */
 .card{
@@ -400,6 +441,11 @@ section .title::after{
     transform: translate(-50%);
 }
 .about .title::after{
+    content: "my skills";
+    background: #222222;
+}
+
+.about .title:nth-child(1)::after{
     content: "whoami";
     background: #222222;
 }
@@ -411,6 +457,7 @@ section .title::after{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin: 0 0 80px 0;
 }
 
 .about .about_content .sideBarRight{
@@ -852,6 +899,34 @@ footer .design{
 
 }
 
+
+/* animation */
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(img/lap.png);
+        background-size: contain;
+        object-fit: cover;
+    }
+    25%{
+        background-image: url(img/lap2.png);
+        background-size: contain;
+        object-fit: cover;
+    }
+    50%{
+        background-image: url(img/laptop.jpg);
+        background-size: contain;
+        object-fit: cover;
+    }
+    75%{
+        background-image: url(img/laptop2.jpg);
+        background-size: contain    ;
+        object-fit: cover;
+    }
+}
+
+/* animation ends */
+
 @keyframes zoom{
     from{transform: scale(0)}
     to{transform: scale(1)}
@@ -927,6 +1002,24 @@ footer .design{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .home .home_side:nth-child(2){
+        display: none;
+    }
+    
+    .home_txt,
+    .intro_txt{
+        width: 90%;
+        margin: 50px auto 0 auto;
+        transform: translate(0, 50%);
+        /* background: #64e8ff; */
+    }
+    .home_txt h1,
+    .home_txt .title{
+        font-size: 30px;
+    }
+    .intro_txt p{
+        font-size: 18px;
+    }
     .mainMenu{
         padding: 0;
         width: 90%;
@@ -989,6 +1082,7 @@ footer .design{
     .about .about_content .sideBarRight,
     .about .about_content .sideBarLeft{
         width: 100%;
+        margin: auto 20px;
     }
     .about .about_content .sideBarRight .text{
         font-size: 26px;
@@ -1029,27 +1123,18 @@ footer .design{
         background-size: 50%;
     }
 
-    .home_txt,
-    .intro_txt{
-        width: 90%;
-        margin: 50px auto 0 auto;
-        transform: translate(0, 50%);
-        /* background: #64e8ff; */
-    }
-    .home_txt h1,
-    .home_txt .title{
-        font-size: 30px;
-    }
-    .intro_txt p{
-        font-size: 18px;
-    }
     
     .skills{
         flex-direction: column;
+        flex-flow: wrap;
     }
     .card{
-        width: 70%;
-        margin: 20px 0 0 0;
+        width: 40%;
+        margin: 10px 10px;
+    }
+    .card .text{
+        font-size: 14px;
+        font-weight: lighter;
     }
 
      
