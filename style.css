@@ -1082,7 +1082,7 @@ footer .design{
     .about .about_content .sideBarRight,
     .about .about_content .sideBarLeft{
         width: 100%;
-        margin: auto 20px;
+        margin: auto;
     }
     .about .about_content .sideBarRight .text{
         font-size: 26px;
