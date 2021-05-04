@@ -285,8 +285,13 @@ header ul li a:hover{
     pointer-events: none;  
     background: rgba(235, 233, 233, 0.411);
 }
-.card:hover{
-    transform: translateY(-10px);
+.card .text{
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;
+}
+.card .text:hover{
+    transform: translateY(-5px);
+    color: crimson;
 }
 .percent{
     position: relative;
@@ -1128,6 +1133,10 @@ footer .design{
         flex-direction: column;
         flex-flow: wrap;
     }
+    .percent .number h2{
+        font-size: 26px;
+    }
+    
     .card{
         width: 40%;
         margin: 10px 10px;
