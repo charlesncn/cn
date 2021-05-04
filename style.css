@@ -289,7 +289,7 @@ header ul li a:hover{
     font-family: 'Poppins', sans-serif;
     transition: all 0.4s ease;
 }
-.card .text:hover{
+.card:hover .text{
     transform: translateY(-5px);
     color: crimson;
 }
