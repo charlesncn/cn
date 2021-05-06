@@ -119,7 +119,9 @@ header ul li a:hover{
     justify-content: space-between;
 }
 .navBar .logo img{
-    height: 80px;
+    height: 50px;
+    object-fit: cover;
+    margin: 15px 0;
 }
 .navBar .menu li{
     list-style: none;
@@ -221,13 +223,13 @@ header ul li a:hover{
 }
 .home_txt .title{
     font-family: 'Poppins', sans-serif;
-    color: rgb(98, 253, 253);
+    color: #00aad0;
     font-size: 86px;
     line-height: 86px;
 }
 .home_txt h4{
     font-family: 'Poppins';
-    color: rgb(98, 253, 253);
+    color: #00aad0;
     font-size: 26px;
     font-weight: normal;
 }
@@ -291,7 +293,7 @@ header ul li a:hover{
 }
 .card:hover .text{
     transform: translateY(-5px);
-    color: crimson;
+    /* color: crimson; */
 }
 .percent{
     position: relative;
@@ -419,7 +421,7 @@ section .title{
     font-size: 45px;
     font-weight: 500;
     padding-bottom: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     text-align: center;
     color: #fff;
 
@@ -462,7 +464,7 @@ section .title::after{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 0 0 80px 0;
+    margin: 0;
 }
 
 .about .about_content .sideBarRight{
@@ -830,7 +832,10 @@ section .title::after{
     justify-content: space-around;
     align-items: flex-start;
 }
-
+.contact .bigBox img{
+    height: 100px;
+    object-fit: cover;
+}
 .contact .bigBox .text{
     color: crimson;
     font-size: 26px;
@@ -888,7 +893,7 @@ section .title::after{
 
 footer{
     text-align: center;
-    background:  rgb(98, 253, 253);
+    background:  #00aad0;
     color: #000;
     letter-spacing: 1.2px;
     
@@ -1043,7 +1048,7 @@ footer .design{
         height: 100vh;
         top: 0;
         left: -100%;
-        background-color: rgb(98, 253, 253);
+        background-color: #00aad0;
         text-align: center;
         padding-top: 70px;
         transition: all 0.4s ease;
