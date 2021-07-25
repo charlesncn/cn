@@ -36,7 +36,7 @@ $(document).ready(function(){
     });
 
     $(window).on('load', function(){
-        $('#splash').delay(2050).fadeOut('slow');
-        $('body').delay(3050).css({'overflow':'visible'});
+        $('#splash').delay(900).fadeOut('slow');
+        $('body').delay(1550).css({'overflow':'visible'});
     })
 });
