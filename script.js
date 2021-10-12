@@ -1,3 +1,6 @@
+const year = document.getElementById('year');
+const yearUpdate = newDate();
+
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 30){
@@ -38,5 +41,7 @@ $(document).ready(function(){
     $(window).on('load', function(){
         $('#splash').delay(900).fadeOut('slow');
         $('body').delay(1550).css({'overflow':'visible'});
+        year.innerHTML = yearUpdate.getFullYear();
+
     })
 });
