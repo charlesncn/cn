@@ -38,9 +38,8 @@ $(document).ready(function(){
     });
 
     $(window).on('load', function(){
-        $('#splash').delay(900).fadeOut('slow');
-        $('body').delay(1550).css({'overflow':'visible'});
+        $('#splash').delay(500).fadeOut('slow');
+        $('body').delay(1050).css({'overflow':'visible'});
         
-
     })
 });
