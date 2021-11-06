@@ -1045,11 +1045,11 @@ footer .design{
     }
     .navBar .menu{
         position: fixed;
-        width: 100%;
+        width: 60%;
         height: 100vh;
         top: 0;
         left: -100%;
-        background-color: #00aad0;
+        background-color: crimson;
         text-align: center;
         padding-top: 70px;
         transition: all 0.4s ease;
