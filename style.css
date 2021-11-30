@@ -159,7 +159,8 @@ header ul li a:hover{
     width: 100%;
     background-color: #000;
     background: url(img/dark_lap.png);
-    background-size: contain;
+    background-size: cover;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0 auto;
