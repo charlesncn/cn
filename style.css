@@ -611,6 +611,7 @@ section .title::after{
 }
 .services .serv_content .card_item p{
     padding: 0 0 5px 0;
+    color: #000000;
 }
 
 /* services */
@@ -708,6 +709,7 @@ section .title::after{
 }
 .container .pjCard .pjContent p{
     font-size: 1.5em;
+    color: #000000;
 }
 /* Projects */
 
