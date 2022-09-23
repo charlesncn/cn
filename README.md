@@ -1,2 +1,2 @@
-# cn
+# Charles Njuguna
 My Portfolio
