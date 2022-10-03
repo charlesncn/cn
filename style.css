@@ -369,7 +369,7 @@ svg circle:nth-child(2){
     stroke: rgb(6, 255, 234);
 }
 .card:nth-child(3) svg circle:nth-child(2){
-    stroke-dashoffset: calc(378 - (378 * 34) / 100);
+    stroke-dashoffset: calc(378 - (378 * 75) / 100);
     stroke: rgb(0, 255, 42);
 }
 .card:nth-child(4) svg circle:nth-child(2){
