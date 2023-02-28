@@ -514,7 +514,7 @@ section .title::after{
 .about .about_content .sideBarLeft img{
     height: 400px;
     width: 400px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .about .about_content .sideBarLeft{
     width: 44%;
@@ -774,7 +774,7 @@ section .title::after{
     height: 180px;
     width: 180px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     border: 4px solid rgb(255, 102, 0);
 }
 
